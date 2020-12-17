@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дистанция</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-block">
+        <button class="m-menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>  
+        <div class="search">
+          <input class="search-input" type="text" placeholder="Search">
+        </div>
+        <div class="navigation">
+            <div class="user">
+              <img class="user-avatar" alt="avatar" src="images/user-icon.svg">
+              <span class="user-name">Mateusz</span>
+            </div>
+            <nav class="navigation-panel">
+              <a href="#" class="navigation-link">Home</a>
+              <a href="#" class="navigation-link">Create</a>
+            </nav>
+            <div class="icons-panel">
+              <a href="#" class="icon-link">
+                <i class="icon-users header-icon"></i>
+              </a>
+              <a href="#" class="icon-link">
+                <i class="icon-chat header-icon"></i>
+              </a>
+              <a href="#" class="icon-link">
+                <i class="icon-bell header-icon"></i>
+              </a>
+              <a href="#" class="icon-link">
+                <i class="icon-info header-icon"></i>
+              </a>
+            </div>
+        </div>
+      </div>
+    </header>
+      
+    <div class="container">
+        
+      <div class="menu-sidebar">
+        <div class="user">
+          <img class="user-avatar" alt="avatar" src="images/user-icon.svg">
+          <span class="user-name">Mateusz Wierzbicki</span>
+        </div>
+
+        <nav class="nav-group">
+          <a href="#" class="nav-link active">
+            <i class="icon-news"></i>
+            <span class="nav-text">News Feed</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-message"></i>
+            <span class="nav-text">Messages</span>  
+          </a>
+          <a href="#" class="nav-link">
+              <i class="icon-marketplace"></i>
+            <span class="nav-text">Marketplace</span>  
+          </a>  
+        </nav>
+          
+        <nav class="nav-group">
+          <h3 class="nav-title">Shortcuts</h3>    
+          <a href="#" class="nav-link">
+            <i class="icon-cup"></i>
+            <span class="nav-text">Product Design</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-cup"></i>
+            <span class="nav-text">UX & UI</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-cup"></i>
+            <span class="nav-text">Figma</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-cup"></i>
+            <span class="nav-text">Ant Design</span>  
+          </a>    
+        </nav>  
+          
+        <nav class="nav-group">
+          <h3 class="nav-title">Explore</h3>    
+          <a href="#" class="nav-link">
+            <i class="icon-flag"></i>
+            <span class="nav-text">Pages</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-headphone"></i>
+            <span class="nav-text">Groups</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-home"></i>
+            <span class="nav-text">Events</span>  
+          </a>
+          <a href="#" class="nav-link">
+            <i class="icon-rocket"></i>
+            <span class="nav-text">Games</span>  
+          </a>    
+        </nav>   
+          
+      </div>
+        
+      <div class="main-feed">
+          
+        <div class="create-post">
+          <div class="create-post-header">
+            <h4 class="create-post-title">Create post</h4>
+          </div>
+          <div class="create-post-body">
+            <img src="images/user-icon.svg" alt="avatar" class="user-avatar">
+            <div class="create-post-input" contenteditable="true">What’s on your mind, Mateusz?</div>  
+          </div> 
+          <div class="create-post-footer">
+            <button class="tag">
+              <i class="icon-picture tag-icon"></i>  
+              <span class="button-text">Photo/Video</span>    
+            </button>
+            <button class="tag">
+              <i class="icon-friend tag-icon"></i>  
+              <span class="button-taxt">Tag friends</span>    
+            </button>
+            <button class="tag">
+              <i class="icon-smile tag-icon"></i>  
+              <span class="button-text">Feeling/Activ...</span>    
+            </button>
+            <button class="tag">
+              <i class="icon-ellipsis tag-icon"></i> 
+              <span class="button-text"></span>    
+            </button>  
+          </div>    
+        </div>
+          
+        <div class="post">
+          <div class="post-header">
+            <div class="user">
+              <img class="user-avatar" src="images/user-icon.svg" alt="avatar">
+              <div class="post-info">
+                <a href="#" class="post-author">Mateusz Wierzbicki</a>
+                <div class="post-desc">
+                  <span class="post-time">3 hrs</span>
+                  <i class="icon-setting"></i>  
+                </div>
+              </div>      
+            </div>
+            <button class="post-header-button">
+              <i class="post-button-icon icon-ellipsis"></i>  
+            </button>  
+          </div>
+          <div class="post-content">
+            <p class="post-text">Did you know that all of this was made using only components and styles from Ant Desing System for Figma? Learn more: <a>https://antforfigma.com</a></p>
+            <img class="post-image" src="images/post-image.jpg">  
+          </div> 
+          <div class="likes">
+            <i class="icon-like"></i>
+            <span class="likes-counter">23</span>  
+          </div>    
+          <div class="post-footer">
+            <button class="post-button">
+              <i class="post-button-icon icon-like"></i>  
+              <span class="post-button-text">Like</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-chat"></i>  
+              <span class="post-button-text">Comment</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-share"></i>  
+              <span class="post-button-text">Share</span>    
+            </button>  
+          </div>    
+        </div>
+          
+        <div class="post">
+          <div class="post-header">
+            <div class="user">
+              <img class="user-avatar" src="images/user-icon.svg" alt="avatar">
+              <div class="post-info">
+                <a href="#" class="post-author">Mateusz Wierzbicki</a>
+                <div class="post-desc">
+                  <span class="post-time">3 hrs</span>
+                  <i class="icon-setting"></i>  
+                </div>
+              </div>      
+            </div>
+            <button class="post-header-button">
+              <i class="post-button-icon icon-ellipsis"></i>  
+            </button>  
+          </div>
+          <div class="post-content">
+            <p class="post-text">Did you know that all of this was made using only components and styles from Ant Desing System for Figma? Learn more: <a>https://antforfigma.com</a></p>
+            <img class="post-image" src="images/post-image.jpg">  
+          </div> 
+          <div class="likes">
+            <i class="icon-like"></i>
+            <span class="likes-counter">23</span>  
+          </div>    
+          <div class="post-footer">
+            <button class="post-button">
+              <i class="post-button-icon icon-like"></i>  
+              <span class="post-button-text">Like</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-chat"></i>  
+              <span class="post-button-text">Comment</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-share"></i>  
+              <span class="post-button-text">Share</span>    
+            </button>  
+          </div>    
+        </div>  
+          
+        <div class="post">
+          <div class="post-header">
+            <div class="user">
+              <img class="user-avatar" src="images/user-icon.svg" alt="avatar">
+              <div class="post-info">
+                <a href="#" class="post-author">Mateusz Wierzbicki</a>
+                <div class="post-desc">
+                  <span class="post-time">3 hrs</span>
+                  <i class="icon-setting"></i>  
+                </div>
+              </div>      
+            </div>
+            <button class="post-header-button">
+              <i class="post-button-icon icon-ellipsis"></i>  
+            </button>  
+          </div>
+          <div class="post-content">
+            <p class="post-text">Did you know that all of this was made using only components and styles from Ant Desing System for Figma? Learn more: <a>https://antforfigma.com</a></p>
+            <img class="post-image" src="images/post-image.jpg">  
+          </div> 
+          <div class="likes">
+            <i class="icon-like"></i>
+            <span class="likes-counter">23</span>  
+          </div>    
+          <div class="post-footer">
+            <button class="post-button">
+              <i class="post-button-icon icon-like"></i>  
+              <span class="post-button-text">Like</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-chat"></i>  
+              <span class="post-button-text">Comment</span>    
+            </button>
+            <button class="post-button">
+              <i class="post-button-icon icon-share"></i>  
+              <span class="post-button-text">Share</span>    
+            </button>  
+          </div>    
+        </div>    
+          
+      </div>    
+        
+      <div class="right-sidebar">
+        <div class="stories">
+            
+          <div class="stories-header">
+            <h4 class="stories-title">Stories</h4>
+            <div class="stories-buttons">
+              <a class="story-button-link" href="#">
+                <i class="story-icon icon-archive"></i>  
+                <span class="story-button-text">Archive</span>  
+              </a>
+              <a class="story-button-link" href="#"> 
+                <span class="story-button-text">Settings</span>  
+              </a>    
+            </div>  
+          </div>
+            
+          <a href="#" class="story-item-add">
+            <div class="story-image">+</div>
+            <div class="story-item-text">
+              <span class="story-title">Add to your story</span>
+              <span class="story-text">Share a photo or video or write something</span>    
+            </div>  
+          </a> 
+            
+          <a href="#" class="story-item">
+            <div class="story-image concuria"></div>
+            <div class="story-item-text">
+              <span class="story-title">Concuria</span>
+              <span class="story-text">4 hours ago</span>    
+            </div>  
+          </a>  
+            
+          <a href="#" class="story-item">
+            <div class="story-image figma"></div>
+            <div class="story-item-text">
+              <span class="story-title">Figma</span>
+              <span class="story-text">4 hours ago</span>    
+            </div>  
+          </a>      
+            
+        </div>
+      </div>    
+        
+    </div>
+      
+    <!-- End container -->  
+      
+  </body>
+    <script src="js/icons.js"></script>    
+  <script src="js/script.js"></script>    
+</html>
